@@ -1,0 +1,10 @@
+# checkpoints
+trained_models/
+detection_models/
+
+# data
+data/datasets/VG/
+
+# tmp
+tmp/
+
