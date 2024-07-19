@@ -7,4 +7,10 @@ data/datasets/VG/
 
 # tmp
 tmp/
+temp.pth
 
+# pycache
+__pycache__/
+
+# Experiments
+re-experiment/

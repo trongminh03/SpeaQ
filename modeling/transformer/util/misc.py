@@ -434,6 +434,7 @@ def accuracy(output, target, topk=(1,)):
         return [torch.zeros([], device=output.device)]
     maxk = max(topk)
     batch_size = target.size(0)
+    print("------batch_size------", batch_size)
 
     _, pred = output.topk(maxk, 1, True, True)
     pred = pred.t()
